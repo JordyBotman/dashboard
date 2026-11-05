@@ -2,27 +2,33 @@
   "verkoopartikelen": [
     {
       "id": "1",
-      "naam": "P09 Viola F1"
+      "naam": "P09 Viola F1",
+      "substraat_id": "substraat-1"
     },
     {
       "id": "2",
-      "naam": "P10,5 Seasons Best"
+      "naam": "P10,5 Seasons Best",
+      "substraat_id": "substraat-2"
     },
     {
       "id": "3",
-      "naam": "P12 Festival Colours"
+      "naam": "P12 Festival Colours",
+      "substraat_id": "substraat-2"
     },
     {
       "id": "4",
-      "naam": "P13 Wouters & Wouters"
+      "naam": "P13 Wouters & Wouters",
+      "substraat_id": "substraat-2"
     },
     {
       "id": "5",
-      "naam": "P17 Festival Colours"
+      "naam": "P17 Festival Colours",
+      "substraat_id": "substraat-2"
     },
     {
       "id": "6",
-      "naam": "P19 Bolchrysanten"
+      "naam": "P19 Bolchrysanten",
+      "substraat_id": "substraat-3"
     }
   ],
   "productieschemas": [
@@ -72,23 +78,23 @@
     },
     {
       "id": "schema-3",
-      "naam": "P15 Festival Colours",
+      "naam": "P12 Festival Colours",
       "fasen": {
         "beworteling": {
           "weken": 7,
-          "planten_per_m2": 300
+          "planten_per_m2": 300.0
         },
         "oppotfase": {
           "weken": 7,
-          "planten_per_m2": 300
+          "planten_per_m2": 300.0
         },
         "uitzetfase": {
           "weken": 7,
-          "planten_per_m2": 300
+          "planten_per_m2": 300.0
         },
         "afleverfase": {
           "weken": 7,
-          "planten_per_m2": 300
+          "planten_per_m2": 300.0
         }
       }
     },
@@ -194,60 +200,932 @@
     {
       "id": "substraat-1",
       "naam": "Violengrond",
-      "prijs_per_liter": 10
+      "prijs_per_liter": 0.6
     },
     {
       "id": "substraat-2",
       "naam": "Perkgoedgrond",
-      "prijs_per_liter": 15
+      "prijs_per_liter": 0.7
     },
     {
       "id": "substraat-3",
       "naam": "Bolchrysantengrond",
-      "prijs_per_liter": 20
+      "prijs_per_liter": 0.8
     },
     {
       "id": "substraat-4",
       "naam": "Kerststerrengrond",
-      "prijs_per_liter": 25
+      "prijs_per_liter": 0.9
     }
   ],
   "opkweekverpakkingen": [
     {
       "id": "1",
       "naam": "P09868v POT 9CM 8° Lv",
-      "prijs_per_1000": 90,
-      "inhoud_liter": null
+      "prijs_per_1000": 90.0,
+      "inhoud_liter": 0.5
     },
     {
       "id": "2",
       "naam": "P105590 POT 10.5CM 5° H",
-      "prijs_per_1000": 100,
-      "inhoud_liter": null
+      "prijs_per_1000": 100.0,
+      "inhoud_liter": 0.6
     },
     {
       "id": "3",
       "naam": "P125C100 POT 12CM 5° H",
-      "prijs_per_1000": 120,
-      "inhoud_liter": null
+      "prijs_per_1000": 120.0,
+      "inhoud_liter": 0.8
     },
     {
       "id": "4",
       "naam": "Pot 13 cm 5° YB",
-      "prijs_per_1000": 130,
-      "inhoud_liter": null
+      "prijs_per_1000": 130.0,
+      "inhoud_liter": 1.0
     },
     {
       "id": "5",
       "naam": "P175128v POT 17CM 5° Lv",
-      "prijs_per_1000": 170,
-      "inhoud_liter": null
+      "prijs_per_1000": 170.0,
+      "inhoud_liter": 2.0
     },
     {
       "id": "6",
       "naam": "P195149 POT 19CM 5° L",
-      "prijs_per_1000": 190,
-      "inhoud_liter": null
+      "prijs_per_1000": 190.0,
+      "inhoud_liter": 3.0
+    }
+  ],
+  "toegevoegde-waarde": [
+    {
+      "id": "waarde-1",
+      "naam": "Bambini met etiket",
+      "prijs_per_stuk": 0.01
+    },
+    {
+      "id": "waarde-2",
+      "naam": "Draagbeugel smal",
+      "prijs_per_stuk": 0.02
+    },
+    {
+      "id": "waarde-3",
+      "naam": "Draagbeugel breed",
+      "prijs_per_stuk": 0.03
+    },
+    {
+      "id": "waarde-4",
+      "naam": "Blanco Hoes",
+      "prijs_per_stuk": 0.04
+    }
+  ],
+  "prijs-per-m2": [
+    {
+      "week": 1,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 2,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 3,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 4,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 5,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 6,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 7,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 8,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 9,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 10,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 11,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 12,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 13,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 14,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 15,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 16,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 17,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 18,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 19,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 20,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 21,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 22,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 23,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 24,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 25,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 26,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 27,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 28,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 29,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 30,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 31,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 32,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 33,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 34,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 35,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 36,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 37,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 38,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 39,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 40,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 41,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 42,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 43,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 44,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 45,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 46,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 47,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 48,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 49,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 50,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 51,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 52,
+      "prijs_per_m2": 10.0
+    },
+    {
+      "week": 53,
+      "prijs_per_m2": 10.0
+    }
+  ],
+  "substraatprijs_startversie": 1,
+  "potinhoud_startversie": 1,
+  "klant-offertes": [
+    {
+      "id": "2d75ae2ad12a469d80b6a24aee41356b",
+      "projectnaam": "Welkoop voorjaar 2027",
+      "klant": "Green4Retail",
+      "eindklant": "Online",
+      "regels": [
+        {
+          "id": "2d75ae2ad12a469d80b6a24aee41356b",
+          "berekening": {
+            "klant": "Green4Retail",
+            "eindklant": "Online",
+            "verkoopartikel": "P10,5 Seasons Best",
+            "afleverjaar": 2026,
+            "afleverweek": 30,
+            "startjaar": 2026,
+            "startweek": 7,
+            "totaal_weken": 24,
+            "pot": {
+              "naam": "P105590 POT 10.5CM 5° H",
+              "prijs_per_1000": 100.0,
+              "kosten": 0.1
+            },
+            "substraat": {
+              "naam": "Perkgoedgrond",
+              "liters": 0.6,
+              "prijs_per_liter": 0.7,
+              "kosten": 0.42
+            },
+            "teeltkosten": 1.2,
+            "toevoegingen": [
+              {
+                "naam": "Bambini met etiket",
+                "kosten": 0.01
+              },
+              {
+                "naam": "Draagbeugel smal",
+                "kosten": 0.02
+              }
+            ],
+            "totaal": 1.75,
+            "fasen": [
+              {
+                "naam": "beworteling",
+                "weken": 6,
+                "planten_per_m2": 200.0,
+                "start": "2026-W07",
+                "einde": "2026-W12",
+                "kosten": 0.3
+              },
+              {
+                "naam": "oppotfase",
+                "weken": 6,
+                "planten_per_m2": 200.0,
+                "start": "2026-W13",
+                "einde": "2026-W18",
+                "kosten": 0.3
+              },
+              {
+                "naam": "uitzetfase",
+                "weken": 6,
+                "planten_per_m2": 200.0,
+                "start": "2026-W19",
+                "einde": "2026-W24",
+                "kosten": 0.3
+              },
+              {
+                "naam": "afleverfase",
+                "weken": 6,
+                "planten_per_m2": 200.0,
+                "start": "2026-W25",
+                "einde": "2026-W30",
+                "kosten": 0.3
+              }
+            ],
+            "weken": [
+              {
+                "jaar": 2026,
+                "week": 7,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 8,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 9,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 10,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 11,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 12,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 13,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 14,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 15,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 16,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 17,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 18,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 19,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 20,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 21,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 22,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 23,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 24,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 25,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 26,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 27,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 28,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 29,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              },
+              {
+                "jaar": 2026,
+                "week": 30,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 200.0,
+                "kosten": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": "3c6e705a2614498da6c571e1102e70aa",
+          "berekening": {
+            "klant": "Green4Retail",
+            "eindklant": "Online",
+            "verkoopartikel": "P17 Festival Colours",
+            "afleverjaar": 2026,
+            "afleverweek": 30,
+            "startjaar": 2025,
+            "startweek": 47,
+            "totaal_weken": 36,
+            "pot": {
+              "naam": "P175128v POT 17CM 5° Lv",
+              "prijs_per_1000": 170.0,
+              "kosten": 0.17
+            },
+            "substraat": {
+              "naam": "Perkgoedgrond",
+              "liters": 2.0,
+              "prijs_per_liter": 0.7,
+              "kosten": 1.4
+            },
+            "teeltkosten": 0.72,
+            "toevoegingen": [
+              {
+                "naam": "Draagbeugel breed",
+                "kosten": 0.03
+              },
+              {
+                "naam": "Blanco Hoes",
+                "kosten": 0.04
+              }
+            ],
+            "totaal": 2.36,
+            "fasen": [
+              {
+                "naam": "beworteling",
+                "weken": 9,
+                "planten_per_m2": 500.0,
+                "start": "2025-W47",
+                "einde": "2026-W03",
+                "kosten": 0.18
+              },
+              {
+                "naam": "oppotfase",
+                "weken": 9,
+                "planten_per_m2": 500.0,
+                "start": "2026-W04",
+                "einde": "2026-W12",
+                "kosten": 0.18
+              },
+              {
+                "naam": "uitzetfase",
+                "weken": 9,
+                "planten_per_m2": 500.0,
+                "start": "2026-W13",
+                "einde": "2026-W21",
+                "kosten": 0.18
+              },
+              {
+                "naam": "afleverfase",
+                "weken": 9,
+                "planten_per_m2": 500.0,
+                "start": "2026-W22",
+                "einde": "2026-W30",
+                "kosten": 0.18
+              }
+            ],
+            "weken": [
+              {
+                "jaar": 2025,
+                "week": 47,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2025,
+                "week": 48,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2025,
+                "week": 49,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2025,
+                "week": 50,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2025,
+                "week": 51,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2025,
+                "week": 52,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 1,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 2,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 3,
+                "fase": "beworteling",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 4,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 5,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 6,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 7,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 8,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 9,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 10,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 11,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 12,
+                "fase": "oppotfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 13,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 14,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 15,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 16,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 17,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 18,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 19,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 20,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 21,
+                "fase": "uitzetfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 22,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 23,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 24,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 25,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 26,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 27,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 28,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 29,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              },
+              {
+                "jaar": 2026,
+                "week": 30,
+                "fase": "afleverfase",
+                "prijs_per_m2": 10.0,
+                "planten_per_m2": 500.0,
+                "kosten": 0.02
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

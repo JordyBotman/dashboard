@@ -1,0 +1,253 @@
+{
+  "verkoopartikelen": [
+    {
+      "id": "1",
+      "naam": "P09 Viola F1"
+    },
+    {
+      "id": "2",
+      "naam": "P10,5 Seasons Best"
+    },
+    {
+      "id": "3",
+      "naam": "P12 Festival Colours"
+    },
+    {
+      "id": "4",
+      "naam": "P13 Wouters & Wouters"
+    },
+    {
+      "id": "5",
+      "naam": "P17 Festival Colours"
+    },
+    {
+      "id": "6",
+      "naam": "P19 Bolchrysanten"
+    }
+  ],
+  "productieschemas": [
+    {
+      "id": "schema-1",
+      "naam": "P09 Viola F1",
+      "fasen": {
+        "beworteling": {
+          "weken": 5,
+          "planten_per_m2": 100
+        },
+        "oppotfase": {
+          "weken": 5,
+          "planten_per_m2": 100
+        },
+        "uitzetfase": {
+          "weken": 5,
+          "planten_per_m2": 100
+        },
+        "afleverfase": {
+          "weken": 5,
+          "planten_per_m2": 100
+        }
+      }
+    },
+    {
+      "id": "schema-2",
+      "naam": "P10,5 Seasons Best",
+      "fasen": {
+        "beworteling": {
+          "weken": 6,
+          "planten_per_m2": 200
+        },
+        "oppotfase": {
+          "weken": 6,
+          "planten_per_m2": 200
+        },
+        "uitzetfase": {
+          "weken": 6,
+          "planten_per_m2": 200
+        },
+        "afleverfase": {
+          "weken": 6,
+          "planten_per_m2": 200
+        }
+      }
+    },
+    {
+      "id": "schema-3",
+      "naam": "P15 Festival Colours",
+      "fasen": {
+        "beworteling": {
+          "weken": 7,
+          "planten_per_m2": 300
+        },
+        "oppotfase": {
+          "weken": 7,
+          "planten_per_m2": 300
+        },
+        "uitzetfase": {
+          "weken": 7,
+          "planten_per_m2": 300
+        },
+        "afleverfase": {
+          "weken": 7,
+          "planten_per_m2": 300
+        }
+      }
+    },
+    {
+      "id": "schema-4",
+      "naam": "P13 Wouters & Wouters",
+      "fasen": {
+        "beworteling": {
+          "weken": 8,
+          "planten_per_m2": 400
+        },
+        "oppotfase": {
+          "weken": 8,
+          "planten_per_m2": 400
+        },
+        "uitzetfase": {
+          "weken": 8,
+          "planten_per_m2": 400
+        },
+        "afleverfase": {
+          "weken": 8,
+          "planten_per_m2": 400
+        }
+      }
+    },
+    {
+      "id": "schema-5",
+      "naam": "P17 Festival Colours",
+      "fasen": {
+        "beworteling": {
+          "weken": 9,
+          "planten_per_m2": 500
+        },
+        "oppotfase": {
+          "weken": 9,
+          "planten_per_m2": 500
+        },
+        "uitzetfase": {
+          "weken": 9,
+          "planten_per_m2": 500
+        },
+        "afleverfase": {
+          "weken": 9,
+          "planten_per_m2": 500
+        }
+      }
+    },
+    {
+      "id": "schema-6",
+      "naam": "P19 Bolchrysanten",
+      "fasen": {
+        "beworteling": {
+          "weken": 10,
+          "planten_per_m2": 600
+        },
+        "oppotfase": {
+          "weken": 10,
+          "planten_per_m2": 600
+        },
+        "uitzetfase": {
+          "weken": 10,
+          "planten_per_m2": 600
+        },
+        "afleverfase": {
+          "weken": 10,
+          "planten_per_m2": 600
+        }
+      }
+    }
+  ],
+  "vertaling-verkoop-inkoop": [
+    {
+      "verkoop_id": "1",
+      "inkoop_id": "1"
+    },
+    {
+      "verkoop_id": "2",
+      "inkoop_id": "2"
+    },
+    {
+      "verkoop_id": "3",
+      "inkoop_id": "3"
+    },
+    {
+      "verkoop_id": "4",
+      "inkoop_id": "4"
+    },
+    {
+      "verkoop_id": "5",
+      "inkoop_id": "5"
+    },
+    {
+      "verkoop_id": "6",
+      "inkoop_id": "6"
+    },
+    {
+      "verkoop_id": "1",
+      "inkoop_id": "4"
+    }
+  ],
+  "schemas_startversie": 1,
+  "substraten": [
+    {
+      "id": "substraat-1",
+      "naam": "Violengrond",
+      "prijs_per_liter": 10
+    },
+    {
+      "id": "substraat-2",
+      "naam": "Perkgoedgrond",
+      "prijs_per_liter": 15
+    },
+    {
+      "id": "substraat-3",
+      "naam": "Bolchrysantengrond",
+      "prijs_per_liter": 20
+    },
+    {
+      "id": "substraat-4",
+      "naam": "Kerststerrengrond",
+      "prijs_per_liter": 25
+    }
+  ],
+  "opkweekverpakkingen": [
+    {
+      "id": "1",
+      "naam": "P09868v POT 9CM 8° Lv",
+      "prijs_per_1000": 90,
+      "inhoud_liter": null
+    },
+    {
+      "id": "2",
+      "naam": "P105590 POT 10.5CM 5° H",
+      "prijs_per_1000": 100,
+      "inhoud_liter": null
+    },
+    {
+      "id": "3",
+      "naam": "P125C100 POT 12CM 5° H",
+      "prijs_per_1000": 120,
+      "inhoud_liter": null
+    },
+    {
+      "id": "4",
+      "naam": "Pot 13 cm 5° YB",
+      "prijs_per_1000": 130,
+      "inhoud_liter": null
+    },
+    {
+      "id": "5",
+      "naam": "P175128v POT 17CM 5° Lv",
+      "prijs_per_1000": 170,
+      "inhoud_liter": null
+    },
+    {
+      "id": "6",
+      "naam": "P195149 POT 19CM 5° L",
+      "prijs_per_1000": 190,
+      "inhoud_liter": null
+    }
+  ]
+}

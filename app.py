@@ -362,7 +362,7 @@ PAGINA = """
         {% endfor %}
       </nav>
     {% endif %}
-    <footer><span>Kwekerij Wouters??</span><span>Assortiment · Inkoop · Productie</span></footer>
+    <footer><span>Kwekerij Wouters!!</span><span>Assortiment · Inkoop · Productie</span></footer>
   </main>
 <script>
 const prijs = document.getElementById('prijs');
